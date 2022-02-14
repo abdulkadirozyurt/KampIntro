@@ -27,6 +27,8 @@ namespace Program
             Console.WriteLine("for bitti");
 
             Console.WriteLine("\n\n\n");
+            
+            
             // farklı bir döngü yöntemi. Yazım şekli.
 
 
