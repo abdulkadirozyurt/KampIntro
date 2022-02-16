@@ -38,8 +38,7 @@ namespace OOP1
 
 
 
-            int sonuc = productManager.Topla(7, 5);
-            Console.WriteLine(sonuc*2);
+            
 
         }
 
