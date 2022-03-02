@@ -47,6 +47,8 @@ namespace Collections
             //    Console.WriteLine(isim);     // dizilerde olduğu gibi foreach aynı şekilde kullanılabilir.
             //}
 
+
+
             
             
         }
