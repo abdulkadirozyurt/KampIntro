@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
-    class CreditManager
+    interface CreditManager     // bir interface der ki. Birisi bu interface'i kullanırsa eğer, o arkadaş şu metodu içermek zorunda.
     {
-        public void Calculate()
-        {
-            
-        }
-
+        void Calculate();
+        void BirSeyYap();
     }
 }

@@ -8,8 +8,14 @@ namespace OOP3
 {
     class ConsumerLoanManager : CreditManager
     {
+        public void BirSeyYap()
+        {
+            throw new NotImplementedException();
+        }
 
-
-
+        public void Calculate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
