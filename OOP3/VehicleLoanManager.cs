@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
-    class VehicleLoanManager : CreditManager
+    class VehicleLoanManager : ICreditManager
     {
         public void BirSeyYap()
         {
@@ -15,7 +15,7 @@ namespace OOP3
 
         public void Calculate()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Taşıt Kredisi Ödeme Planı Hesaplandı.");
         }
     }
 }

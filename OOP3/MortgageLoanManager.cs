@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace OOP3
-{
-    class MortgageLoanManager : CreditManager  // diyor ki bir interface'i kullanıyorsan onun kurallarına uymak zorundası. (hata bu) onun içindeki metodu içermelisin.
+{                                                           
+    class MortgageLoanManager : ICreditManager  // diyor ki bir interface'i kullanıyorsan onun kurallarına uymak zorundası. (hata bu) onun içindeki metodu içermelisin.
     {
         public void BirSeyYap()
         {
@@ -15,7 +15,7 @@ namespace OOP3
 
         public void Calculate()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Konut Kredisi Ödeme Planı Hesaplandı.");
         }
     }
 }
