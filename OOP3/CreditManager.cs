@@ -14,9 +14,8 @@ namespace OOP3
 }
 
 
-
-
-
+// interface'leri birbirinin alternatifi olan ancak kod içerikleri farklı olan durumlar için kullanırız.
+// bu örnekte kredi türlerinin hepsinde bir hesaplama vardır ama kodları farklıdır, farklı kurallar farklı hesaplama şekilleri vs.
 
 
 // genellikle operasyonel metotlarda interface'ler kullanılır.
